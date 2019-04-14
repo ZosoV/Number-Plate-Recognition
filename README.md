@@ -23,7 +23,8 @@ Usage is as follows:
 
 Instructions to run with the GPU (Nvidia GeForce GTX 1060):
 
-Note: if you install tensorflw-gpu with anaconda the programs CUDA Tool Kit and Cudnn comes by default.
+Note: if you install tensorflow-gpu with anaconda the programs CUDA Tool Kit and Cudnn comes by default.
+Note: if you install tensorflow-gpu with pip follow the instructions of the oficial site of tensorflow.
 
 The project has the following dependencies:
 * [Nvidia Drivers 410](https://www.nvidia.com/Download/index.aspx?lang=en-us)
@@ -34,9 +35,9 @@ sudo apt install nvidia-driver-410
 sudo reboot
 nvidia-smi
 ```
+* [Tensorflow GPU](https://www.tensorflow.org/install/gpu) or with [Anaconda](https://anaconda.org/conda-forge/tensorflow)
 * [CUDA Tool Kit 10.0](https://developer.nvidia.com/cuda-downloads) (TensorFlow >= 1.13.0)
 * [Cudnn SDK >=7.4.1](https://developer.nvidia.com/cudnn)
-* [Tensorflow-gpu](https://www.tensorflow.org/install/gpu) or with [Anaconda](https://anaconda.org/conda-forge/tensorflow)
 
 Pip installation
 ```
