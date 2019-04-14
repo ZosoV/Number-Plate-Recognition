@@ -1,6 +1,7 @@
 # Number-Plate-Recognition
 
-This project is based in the following project [Repo Link](https://github.com/matthewearl/deep-anpr) [Blog Post](http://matthewearl.github.io/2016/05/06/cnn-anpr/) 
+This project is based in the following project [Blog Post](http://matthewearl.github.io/2016/05/06/cnn-anpr/)
+[Repo Link](https://github.com/matthewearl/deep-anpr) 
 
 Usage is as follows:
 
@@ -20,9 +21,7 @@ Usage is as follows:
 
 4. `./detect.py in.jpg weights.npz out.jpg`: Detect number plates in an image.
 
-Instructions to run with the GPU (Nvidia GeForce GTX 1060)
-
-Install the following dependencies
+Instructions to run with the GPU (Nvidia GeForce GTX 1060):
 
 Note: if you install tensorflw-gpu with anaconda the programs CUDA Tool Kit and Cudnn comes by default.
 
@@ -35,9 +34,9 @@ sudo apt install nvidia-driver-410
 sudo reboot
 nvidia-smi
 ```
-* [CUDA Tool Kit 10.0] (https://developer.nvidia.com/cuda-downloads) (TensorFlow >= 1.13.0)
-* [Cudnn SDK >=7.4.1] (https://developer.nvidia.com/cudnn)
-* [tensorflow-gpu](https://www.tensorflow.org/install/gpu) or with [anaconda] https://anaconda.org/conda-forge/tensorflow
+* [CUDA Tool Kit 10.0](https://developer.nvidia.com/cuda-downloads) (TensorFlow >= 1.13.0)
+* [Cudnn SDK >=7.4.1](https://developer.nvidia.com/cudnn)
+* [Tensorflow-gpu](https://www.tensorflow.org/install/gpu) or with [Anaconda] https://anaconda.org/conda-forge/tensorflow
 
 With pip
 ```
