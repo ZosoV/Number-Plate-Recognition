@@ -24,6 +24,7 @@ Usage is as follows:
 Instructions to run with the GPU (Nvidia GeForce GTX 1060):
 
 Note: if you install tensorflow-gpu with anaconda the programs CUDA Tool Kit and Cudnn comes by default.
+
 Note: if you install tensorflow-gpu with pip follow the instructions of the oficial site of tensorflow.
 
 The project has the following dependencies:
