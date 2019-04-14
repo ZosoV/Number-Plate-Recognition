@@ -37,11 +37,12 @@ nvidia-smi
 * [CUDA Tool Kit 10.0](https://developer.nvidia.com/cuda-downloads) (TensorFlow >= 1.13.0)
 * [Cudnn SDK >=7.4.1](https://developer.nvidia.com/cudnn)
 * [Tensorflow-gpu](https://www.tensorflow.org/install/gpu) or with [Anaconda](https://anaconda.org/conda-forge/tensorflow)
-With pip
+
+Pip installation
 ```
 pip install tensorflow-gpu 
 ```
-With anaconda
+Anaconda Installation
 ```
 conda install -c conda-forge tensorflow 
 ```
