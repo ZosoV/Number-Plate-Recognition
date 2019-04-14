@@ -1,7 +1,7 @@
 # Number-Plate-Recognition
 
 This project is based in the following project [Blog Post](http://matthewearl.github.io/2016/05/06/cnn-anpr/)
-[Repo Link](https://github.com/matthewearl/deep-anpr) 
+[Repo Link](https://github.com/matthewearl/deep-anpr). It just was adapted to recognize Ecuadorian license plates and save in a Tensorflow Lite file.
 
 Usage is as follows:
 
